@@ -4,6 +4,7 @@
 #include <string.h>
 #include <time.h>
 
+const int M_PI = 3.142;
 int main()
 {
     char math;
