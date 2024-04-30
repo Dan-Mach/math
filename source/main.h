@@ -6,12 +6,12 @@
 
 typedef struct{  
 
-    int length;
-    int width;
+    int area; 
     int height;
+    int length;
+    int perimeter; 
     int vol;
-    int perimeter;
-    int area;
+    int width;
 
 }measure;
 
@@ -55,10 +55,9 @@ typedef struct {
     int Val_goods;
     
     int year;
-    
-    
-    
+
 
 }money;
 
+extern void measurement();
 #endif
